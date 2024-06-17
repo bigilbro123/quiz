@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <h1>Simple Quiz</h1>
+        <div class="quiz">
+            <h2>Question goes here</h2>
+
+            <h4 style="float: right;" id="score"></h4>
+            <p id="para"><span>*</span></p>
+            <div class="catogory">
+                <h5 style="margin: 10px;">category :<span id="codeis" style="color: green;"></span>
+                </h5>
+
+                <h5 style="margin: 10px;">difficulty :<span id="difficulty" style="color: blue;"></span>
+                </h5>
+            </div>
+            <div class="buton">
+
+                <div class="di">
+
+
+                </div>
+                <button onclick="fun()" class="but" value="a" id="but_1">NULL</button>
+                <button onclick="fun()" class="but" value="b" id="but_2">NULL</button>
+                <button onclick="fun()" class="but" value="c" id="but_3">NULL</button>
+                <button onclick="fun()" class="but" value="d" id="but_4">NULL</button>
+            </div>
+            <button onclick="changes()" style="display: block;">change Quiz</button>
+            <div class="grid">
+                <!-- <button onclick="change(this)" id="cahnge" value="JavaScript"
+                    style="display: block;">JavaScript</button>
+                <button onclick="change(this)" id="cahnge" value="HTML" style="display: block;">HTML</button>
+                <button onclick="change(this)" id="cahnge" value="PHP" style="display: block;">PHP</button> -->
+                <input type="text" placeholder="Enter a catogory" id="changess"
+                    style="margin-top: 5px;border-radius: 10px; width: 150px; height: 50px;">
+                <button onclick="clickeds()" id="cahnge" value="Linux" style="display: block;">SUBMITE</button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
